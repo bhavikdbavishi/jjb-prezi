@@ -1,0 +1,10 @@
+- job:
+    name: jjb-example
+    project-type: freestyle
+    scm:
+      - git:
+          url: https://github.com/leki75/jjb-prezi
+          branches:
+            - master
+    builders:
+      - shell: 'echo "JJB example"'

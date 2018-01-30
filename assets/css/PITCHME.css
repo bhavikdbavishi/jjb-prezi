@@ -1,0 +1,22 @@
+.reveal pre {
+  width: 100%;
+  box-shadow : none;
+}
+
+.reveal pre code {
+  font-size: 0.6em;
+  line-height: 1.2;
+  max-height: 50vh !important;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.reveal section img {
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.reveal .code-presenting-annotation {
+  color:gray;
+  font-size: 0.5em;
+}
